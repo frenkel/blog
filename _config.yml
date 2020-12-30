@@ -107,8 +107,7 @@ theme_setting:
 #       message: "说点什么吧..."
 #       reply: "回复"
 
-# head_code: |
-#   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
+head_code: <script async defer data-domain="frankgroeneveld.nl" src="https://plausible.io/js/plausible.js"></script>
 
 # # The settings of comments.
 # comment:
