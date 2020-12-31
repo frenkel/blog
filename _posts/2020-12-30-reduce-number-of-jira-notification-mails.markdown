@@ -27,4 +27,4 @@ emails:
 - created
 3. Let them be moved to the trash.
 
-I'm quite happy with how well this works. It has remove a lot of noise from my inbox.
+I'm quite happy with how well this works. It has removed a lot of noise from my inbox.
