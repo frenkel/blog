@@ -16,5 +16,4 @@ tasks:
       sed -i 's/serif/sans-serif/i' _site/assets/main.css
   - deploy: |
       cd website
-      rm -rf .git*
       lftp -f deploy.lftp

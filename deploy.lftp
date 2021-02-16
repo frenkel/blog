@@ -1,4 +1,4 @@
 set sftp:auto-confirm yes
 set sftp:connect-program "ssh -v -a -x -i .ssh/id_rsa"
 connect sftp://frankgroeneveld:dummy@www.webindie.nl:22
-mirror -R . public_html/
+mirror -R _site/ public_html/
