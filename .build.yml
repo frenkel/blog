@@ -1,0 +1,14 @@
+---
+image: debian/testing
+packages:
+  - bundler
+  - ruby-dev
+secrets:
+  - 702a6677-e2dc-40f7-94a6-8cc3bbeacd57
+tasks:
+  - bundler: |
+      cd website
+      bundle --local
+  - build: |
+      cd website
+      bundle exec jekyll build
