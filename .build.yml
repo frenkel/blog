@@ -17,4 +17,4 @@ tasks:
   - deploy: |
       cd website
       rm -rf .git*
-      lftp sftp://frankgroeneveld@www.webindie.nl 'mirror -R . public_html/'
+      lftp -f deploy.lftp
