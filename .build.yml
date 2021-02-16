@@ -3,6 +3,7 @@ image: debian/testing
 packages:
   - bundler
   - ruby-dev
+  - lftp
 secrets:
   - 702a6677-e2dc-40f7-94a6-8cc3bbeacd57
 tasks:
@@ -12,3 +13,8 @@ tasks:
   - build: |
       cd website
       bundle exec jekyll build
+      sed -i 's/serif/sans-serif/i' _site/assets/main.css
+  - deploy: |
+      cd website
+      rm -rf .git*
+      lftp sftp://frankgroeneveld@www.webindie.nl 'mirror -R . public_html/'
