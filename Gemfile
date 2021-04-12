@@ -27,3 +27,6 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "jekyll-theme-persephone"
+
+# needed for ruby 3
+gem 'webrick'
