@@ -5,7 +5,7 @@ packages:
   - ruby-dev
   - lftp
 secrets:
-  - 1966aa97-432e-4657-910e-973298d9c40e
+  - 7b748b62-e038-4ee9-b6ae-08c63f8222b5
 tasks:
   - bundler: |
       cd website
