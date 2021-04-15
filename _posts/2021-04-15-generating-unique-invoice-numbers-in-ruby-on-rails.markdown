@@ -27,21 +27,15 @@ Next we need to build the actual generation of unique numbers. I've chosen to bu
   end
 </pre>
 
-Now the tricky part, how do we generate a new number and make sure it's unique when stored? Build a loop that tries to save the record and make sure you catch the ActiveRecord::RecordNotUnique exception. If that happens it means we need to generate a new incremented number and try again. Something like this should work:
+Now the tricky part, how do we generate a new number and make sure it's unique when stored? Regenerate and save again when you catch the ActiveRecord::RecordNotUnique exception on save. If that happens it means we need to generate a new incremented number and should thus try again. Something like this should work:
 
 <pre>
   def generate_invoice_number
-    loop do
-      parts = last_invoice_number_parts
-      @invoice.number = "#{parts.first}-#{parts.last.to_i + 1}"
-
-      begin
-        @invoice.save!
-        break
-      rescue ActiveRecord::RecordNotUnique
-        # another database record was just with the same number
-      end
-    end
+    parts = last_invoice_number_parts
+    @invoice.number = "#{parts.first}-#{parts.last.to_i + 1}"
+    @invoice.save!
+  rescue ActiveRecord::RecordNotUnique
+    retry # another database record was just with the same number
   end
 </pre>
 
