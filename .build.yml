@@ -8,13 +8,13 @@ secrets:
   - 7b748b62-e038-4ee9-b6ae-08c63f8222b5
 tasks:
   - bundler: |
-      cd website
+      cd blog
       bundle --local
   - build: |
-      cd website
+      cd blog
       bundle exec jekyll build
       sed -i 's/serif/sans-serif/i' _site/assets/main.css
   - deploy: |
       echo 'www.webindie.nl,46.19.33.211 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMMqRI5cWKf+gHbyr7JBoiSHiloTbIawU2lhEM6F3/cKjbJSIbFgYZ8r63dQEe5Oyvhxx+k2+M53dt4OKB12C7U=' > .ssh/known_hosts
-      cd website
+      cd blog
       lftp -f deploy.lftp
