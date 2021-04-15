@@ -6,6 +6,7 @@ packages:
   - lftp
 secrets:
   - 7b748b62-e038-4ee9-b6ae-08c63f8222b5
+  - fcc9631c-86a1-437d-95d4-9b5a140acaa0
 tasks:
   - bundler: |
       cd blog
