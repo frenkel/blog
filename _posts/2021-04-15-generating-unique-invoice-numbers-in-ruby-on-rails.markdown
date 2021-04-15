@@ -6,7 +6,7 @@ comments: true
 categories: Programming
 ---
 
-I'm currently building [Callcounter](https://callcounter.eu), a web application for web API providers that allows them to gather request data and usage of their APIs. They can than analyze and segment all kinds of metrics, such as response times, http status codes, and api endpoint paths. While building the subscription part of this service I of course need to generate invoices. In The Netherlands we're required to have a unique invoice number on them. How do you build something like that in Ruby on Rails?
+I'm currently building [Callcounter](https://callcounter.eu), a web application for web API providers that allows them to gather request data and usage of their APIs. They can then analyze and segment all kinds of metrics, such as response times, http status codes, user-agents, and api endpoint paths. While building the subscription part of this service I of course need to generate invoices. In The Netherlands we're required to have a unique invoice number on them. How do you build something like that in Ruby on Rails?
 
 We first need to validate that the numbers we store are actually unique. Validations in Ruby have some race conditions, where two might be generated at the same time without either one noticing. So, there is only one place where you can be sure of uniqueness: in the database. I've added a unique index on the invoice number column to fail hard if something might generate a duplicate.
 
