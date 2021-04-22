@@ -27,7 +27,7 @@ Ever needed to aggregate data per time period where you didn't have data points 
 (10 rows)
 </pre>
 
-Clearly there is no data for 12:00-13:59 and 15:00-15:59 in the database. Wouldn't it be great if we can fix this at the database level? That's where PostgreSQL's `generate_series()` comes into play. We can use it to generate a consecutive range of items, which we can then join with our events table.
+Clearly there is no data for 12:00-13:59 and 15:00-15:59 in the database. Wouldn't it be great if we can fix this at the database level? That's where the [PostgreSQL `generate_series()` function](https://www.postgresql.org/docs/13/functions-srf.html) comes into play. We can use it to generate a consecutive range of items, which we can then join with our events table.
 
 <pre>
 => SELECT * FROM generate_series('2021-04-22 10:00'::timestamp,
