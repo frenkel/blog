@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PostgreSQL generate_series"
+title: "PostgreSQL generate_series for generating time series"
 date: 2021-04-22 14:05:40 +0200
 comments: true
 categories: Programming
