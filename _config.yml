@@ -74,7 +74,7 @@ social:
 # # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
 # img_prefix: https://your-img-cdn.com
 # # The RSS link of your blog.
-# rss: "/feed.xml"
+rss: "https://frankgroeneveld.nl/feed/"
 
 # # The followings are settings for displays of your blog.
 theme_setting:
@@ -127,3 +127,10 @@ head_code: <script async defer data-domain="frankgroeneveld.nl" src="https://pla
 # smiley:
 #   enabled: true
 #   dir: img/smileys
+default:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
