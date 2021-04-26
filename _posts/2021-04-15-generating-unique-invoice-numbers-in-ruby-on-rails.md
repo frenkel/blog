@@ -17,7 +17,7 @@ Next we need to build the actual generation of unique numbers. I've chosen to bu
 <pre>
   def last_invoice_number_parts
     current_year = Time.zone.now.year.to_s
-    last_invoice = Invoice.order(:number).last
+    last_invoice = Invoice.order(Arel.sql('substring(number from 6)::int')).last
 
     if last_invoice&.number&.start_with?(current_year)
       last_invoice.number.split('-')
