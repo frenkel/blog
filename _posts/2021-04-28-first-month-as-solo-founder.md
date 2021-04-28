@@ -52,4 +52,4 @@ A short list with the most important tasks I can think of for now:
 - Develop a second integration, besides Ruby on Rails, for an important framework.
 - Write a blog post about my second month.
 
-[Follow me on twitter](https://twitter.com/webindie_nl) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+Let me know if you have any questions in the [comments at Hacker News](https://news.ycombinator.com/item?id=26970659). You can also [follow me on twitter](https://twitter.com/webindie_nl) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post.
