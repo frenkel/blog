@@ -26,4 +26,4 @@ style="width:100%!important;height:220px;border:1px #ccc solid !important"
 src="https://buttondown.email/webindie-announcements?as_embed=true"
 ></iframe>
 
-Don't hesitate to [contact me on Twitter](https://twitter.com/webindie_nl) if you have any questions or comments about this post or my new company.
+Don't hesitate to [contact me on Twitter](https://twitter.com/frankgroeneveld) if you have any questions or comments about this post or my new company.

@@ -12,7 +12,7 @@ So didn't I experience any challenges in my first month? Well of course I did ex
 
 ## Marketing &amp; Advertising
 
-Having just finished the first minimum viable product version of [Callcounter](https://callcounter.eu), an analytics product for API providers, I've started the marketing and advertising efforts. So far I've written some blog posts referencing the product, set up a [Twitter account](https://twitter.com/webindie_nl) and created a Bing Ads account. Bing Ads you ask? Yes, I had not heard of it either, but apparently it's Microsoft's answer to Google Adwords. I'm a huge fan of [DuckDuckGo](https://duckduckgo.com) and recently discovered [they use Bing Ads for advertising](https://help.duckduckgo.com/company/advertising-and-affiliates). Given DuckDuckGo's mission, it's quite probable that their userbase consists mostly of developers and other possible customer for me. Seems like a great match! I activated my ads a few days ago, but so far I've only had 8 impressions. Not enough traffic on DuckDuckGo and Bing? Wrong keywords? I'll have to experiment some more to find out. The bidding price luckily is not the problem according to the Bing Ads portal.
+Having just finished the first minimum viable product version of [Callcounter](https://callcounter.eu), an analytics product for API providers, I've started the marketing and advertising efforts. So far I've written some blog posts referencing the product, set up a [Twitter account](https://twitter.com/frankgroeneveld) and created a Bing Ads account. Bing Ads you ask? Yes, I had not heard of it either, but apparently it's Microsoft's answer to Google Adwords. I'm a huge fan of [DuckDuckGo](https://duckduckgo.com) and recently discovered [they use Bing Ads for advertising](https://help.duckduckgo.com/company/advertising-and-affiliates). Given DuckDuckGo's mission, it's quite probable that their userbase consists mostly of developers and other possible customer for me. Seems like a great match! I activated my ads a few days ago, but so far I've only had 8 impressions. Not enough traffic on DuckDuckGo and Bing? Wrong keywords? I'll have to experiment some more to find out. The bidding price luckily is not the problem according to the Bing Ads portal.
 
 ## SEO
 
@@ -34,7 +34,7 @@ The first month summarised in a probably incomplete list:
 - Setup a server for hosting
 - Created an account on [sourcehut](https://sourcehut.org) for git repo hosting and CI builds
 - Setup Plausible Analytics
-- Setup a [Twitter account](https://twitter.com/webindie_nl)
+- Setup a [Twitter account](https://twitter.com/frankgroeneveld)
 - Published various blog posts
 - Developed:
   - [my corporate website](https://webindie.nl)
@@ -52,4 +52,4 @@ A short list with the most important tasks I can think of for now:
 - Develop a second integration, besides Ruby on Rails, for an important framework.
 - Write a blog post about my second month.
 
-[Follow me on twitter](https://twitter.com/webindie_nl) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!

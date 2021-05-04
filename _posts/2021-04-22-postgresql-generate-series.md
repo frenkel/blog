@@ -50,4 +50,4 @@ Clearly there is no data for 12:00-13:59 and 15:00-15:59 in the database. Wouldn
 (12 rows)
 </pre>
 
-Depending on the ORM you're using you'll need to find out how to join this with your events. Let me know on [Twitter](https://twitter.com/webindie_nl) if you're also interested in the ActiveRecord solution I chose.
+Depending on the ORM you're using you'll need to find out how to join this with your events. Let me know on [Twitter](https://twitter.com/frankgroeneveld) if you're also interested in the ActiveRecord solution I chose.
