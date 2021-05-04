@@ -41,7 +41,7 @@ Now the tricky part, how do we generate a new number and make sure it's unique w
 
 That's it. Let's hope this function will generate a lot of unique invoice numbers for us!
 
-If you're interested in the [API analytics](https://callcounter.eu) service I'm building, leave your email below to be notified when sign-ups are open.
+The [API analytics](https://callcounter.eu) service I'm building is now open for sign ups, leave your email below to be notified of news about it.
 
 <iframe
 scrolling="no"
