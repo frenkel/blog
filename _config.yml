@@ -21,9 +21,8 @@
 title: Frank's blog
 description: >- # this means to ignore newlines until "baseurl:"
   A computer science graduate who has a broad interest in internet technologies, open source
-  software and computers in general. I run Webindie, an independent web development company that is
-  trying to make a living by developing a SaaS product, and try to contribute to open source
-  projects in my spare time.
+  software and computers in general. I run [Webindie](https://webindie.nl),
+  an independent web development company that develops an [API analytics platform](https://callcounter.eu).
 author: Frank Groeneveld
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
