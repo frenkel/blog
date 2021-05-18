@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Generating unique invoice numbers in Ruby on Rails"
+description: "In some countries it is required for invoice numbers to be unique and sequential. Let me show you how to build a solid generator yourself if you don't want to use the simple primary keys format."
 date: 2021-04-15 11:20:04 +0200
 comments: true
 categories: Programming

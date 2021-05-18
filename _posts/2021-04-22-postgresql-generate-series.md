@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PostgreSQL generate_series for generating time series"
+description: "Joining incomplete data series will give gaps if you have to truncate the dates. Use the PostgreSQL generate_series function to join a complete date series with your data and fill the gaps with zeros."
 date: 2021-04-22 14:05:40 +0200
 comments: true
 categories: Programming

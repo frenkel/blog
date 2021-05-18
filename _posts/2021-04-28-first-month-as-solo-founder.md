@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My First Month as a Solo Founder"
+description: "I started to build a Software-as-a-Service product from The Netherlands. Discover what I learned and achieved in the first month of this new adventure."
 date: 2021-04-28 16:16:31 +0200
 comments: true
 categories: Business

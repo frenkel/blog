@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Clean up HTML class attributes in Ruby on Rails"
+description: "A new function that was introduced by Rails 6.1 will allow you to simplify html class attributes when they contain logic to be shown or hidden."
 date: 2021-05-04 14:23:12 +0200
 comments: true
 categories: Programming

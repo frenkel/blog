@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Choosing a Rails JSON serializer for your API in 2021"
+description: "There are a lot of Rails JSON serializers, but not all of them are well maintained. Find out which ones are fast and are still maintained."
 date: 2021-02-05 14:17:12 +0100
 comments: true
 categories: Programming

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Configuring L2TP over IPSec on OpenBSD for Mac OS X clients"
+description: "Setup an OpenBSD server with just default software to provide a VPN for Mac OS X clients. A step by step guide with screenshots and configuration examples."
 date: 2015-08-16 17:49:00 +0200
 comments: true
 categories: OpenBSD
