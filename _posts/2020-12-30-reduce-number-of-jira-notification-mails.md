@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Reduce number of Jira notification mails"
+description: "Some simple filters that will remove all the less important Jira notifications from your mailbox but will keep the important ones."
 date: 2020-12-30 18:49:59 +0100
 comments: true
 categories: Workflow

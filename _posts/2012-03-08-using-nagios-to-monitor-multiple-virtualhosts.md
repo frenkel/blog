@@ -1,5 +1,6 @@
 ---
 title: Using Nagios to monitor multiple VirtualHosts
+description: Add some simple configuration to Nagios or Icinga to monitor multiple vhosts on the same server. This is not possible with the check_http command that is available in the default configuration.
 author: frank
 layout: post
 permalink: /2012/03/08/using-nagios-to-monitor-multiple-virtualhosts/

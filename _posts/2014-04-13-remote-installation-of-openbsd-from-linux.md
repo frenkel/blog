@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Remote installation of OpenBSD from Linux"
+description: "Install OpenBSD from within a Linux livecd without the need for official OpenBSD support at your hosting provider. Can be used when you have access to a virtual screen and keyboard."
 date: 2014-04-13 19:09:05 +0200
 comments: true
 categories: 

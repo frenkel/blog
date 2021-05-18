@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Using gitlab-ci-multi-runner on OpenBSD"
+description: "It is now possible to run a Gitlab CI agent in OpenBSD without Docker support. Follow these simple steps to get it up and running."
 date: 2016-04-06 21:14:22 +0200
 comments: true
 categories: OpenBSD
