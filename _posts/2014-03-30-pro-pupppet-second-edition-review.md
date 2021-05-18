@@ -9,7 +9,7 @@ categories:
 - Linux
 ---
 
-A few weeks back I purchased <a href="http://www.amazon.com/gp/product/B00DREFY3E/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DREFY3E&linkCode=as2&tag=frangroesblog-20">Pro Puppet</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=frangroesblog-20&l=as2&o=1&a=B00DREFY3E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> for my Kindle (<a href="http://www.amazon.com/gp/product/1430260408/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1430260408&linkCode=as2&tag=frangroesblog-20">paperback version</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=frangroesblog-20&l=as2&o=1&a=1430260408" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />). I had been using Puppet before, but reading this book gave me more insight in how to use Puppet and made me start using Puppet again.
+A few weeks back I purchased Pro Puppet for my Kindle. I had been using Puppet before, but reading this book gave me more insight in how to use Puppet and made me start using Puppet again.
 <!-- more -->
 The first chapter gives an explanation on how to get Puppet going on various systems, which I skipped for a great part: I'm only interested in the Debian installation, but had already followed the guide on the Puppetlabs website.
 
@@ -32,7 +32,3 @@ The next few chapters touched all kinds of concepts:
 - Hiera and data seperation.
 
 All in all I was glad I bought this book. Some parts were not that interesting for a small scale setup, but I can imagine most people only start using Puppet when their manual configuration becomes too much of a burden. A recommended read for anybody who want to improve his server setup!
-
-&raquo; <a href="http://www.amazon.com/gp/product/1430260408/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1430260408&linkCode=as2&tag=frangroesblog-20">Pro Puppet on Amazon</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=frangroesblog-20&l=as2&o=1&a=1430260408" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-&raquo; <a href="http://www.amazon.com/gp/product/B00DREFY3E/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DREFY3E&linkCode=as2&tag=frangroesblog-20">Pro Puppet Kindle edition on Amazon</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=frangroesblog-20&l=as2&o=1&a=B00DREFY3E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

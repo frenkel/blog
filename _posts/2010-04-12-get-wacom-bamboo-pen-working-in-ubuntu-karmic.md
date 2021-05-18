@@ -19,7 +19,7 @@ tags:
   - wacom
   - xorg
 ---
-In my [last post][1] I described how to get the <a href="http://www.amazon.co.uk/gp/product/B002Q4U4AE/ref=as_li_tf_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B002Q4U4AE&linkCode=as2&tag=frankgroeneve-21" target="_blank">Wacom Bamboo Pen (CTL-460)</a><img style="border: none !important; margin: 0px !important;" src="http://www.assoc-amazon.co.uk/e/ir?t=frankgroeneve-21&l=as2&o=2&a=B002Q4U4AE" alt="" width="1" height="1" border="0" /> to work in Ubuntu 10.04 Lucid. In this post I&#8217;ll explain how to get it working in Ubuntu 9.10 Karmic.<!--more-->
+In my [last post][1] I described how to get the Wacom Bamboo Pen (CTL-460) to work in Ubuntu 10.04 Lucid. In this post I&#8217;ll explain how to get it working in Ubuntu 9.10 Karmic.<!--more-->
 
 Getting the tablet to work in Karmic is a little bit more work. Most steps are the same, but the actual installation requires more than just copying the kernel module: you also need a new fdi file for hal and you need a new Xorg driver. For completeness, there are all the commands you need to execute.
 
@@ -46,5 +46,5 @@ sudo modprobe wacom`
 
 The tablet should work now. You can also add the module name to /etc/modules to automatically load it on boot. Same issues as in the previous post apply to Karmic, but for me this works good enough.
 
- [1]: http://frankgroeneveld.nl/2010/04/11/get-wacom-bamboo-fun-pen-working-in-ubuntu-lucid/
+ [1]: https://frankgroeneveld.nl/2010/04/11/get-wacom-bamboo-fun-pen-working-in-ubuntu-lucid/
  [2]: http://linuxwacom.sf.net

@@ -32,6 +32,6 @@ Don&#8217;t hesitate to contact me if you have any questions!
  [3]: http://crawljax.com/
  [4]: http://crawljax.com/plugins/invarscope-plugins/
  [5]: http://2011.icse-conferences.org/
- [6]: http://frankgroeneveld.nl/wp-content/uploads/2010/09/thesis-frank-groeneveld1.pdf
+ [6]: https://frankgroeneveld.nl/wp-content/uploads/2010/09/thesis-frank-groeneveld1.pdf
  [7]: http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2010-037.pdf
  [8]: http://code.google.com/p/crawljax-plugins/source/browse/#svn/trunk/invarscope

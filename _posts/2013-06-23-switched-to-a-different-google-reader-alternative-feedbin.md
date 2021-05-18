@@ -13,7 +13,7 @@ Last december [I switched to Feed a Fever][1] for RSS reading. I really enjoyed 
 
 There is a mobile interface as well, which works great on FIrefox for Android and pretty good on Internet Explorer for Windows Phone. The most annoying problem is the fact that Microsoft decided @font-face was not worth implementing on Windows Phone, which means the icon font that is used for all the icons shows just blank squares. After using Feedbin for an hour, you&#8217;ll know all these by heart though.
 
- [1]: http://frankgroeneveld.nl/2012/12/29/switching-from-google-reader-to-feed-a-fever/
+ [1]: https://frankgroeneveld.nl/2012/12/29/switching-from-google-reader-to-feed-a-fever/
  [2]: http://feedbin.me
  [3]: http://benubois.com/
  [4]: /uploads/2013/06/Screenshot-from-2013-06-23-105736.jpg
