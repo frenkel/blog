@@ -14,7 +14,6 @@ tasks:
   - build: |
       cd blog
       bundle exec jekyll build
-      sed -i 's/serif/sans-serif/i' _site/assets/main.css
   - deploy: |
       echo 'www.webindie.nl,46.19.33.211 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMMqRI5cWKf+gHbyr7JBoiSHiloTbIawU2lhEM6F3/cKjbJSIbFgYZ8r63dQEe5Oyvhxx+k2+M53dt4OKB12C7U=' > .ssh/known_hosts
       cd blog
