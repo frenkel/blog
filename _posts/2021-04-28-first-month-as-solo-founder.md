@@ -25,7 +25,7 @@ In this first month I also setup [Plausible Analytics](https://plausible.io) to 
 
 ## Talking to Customers
 
-Talking to customers was a very important part of running an agency. The big difference was that we could easily meet face to face and mostly worked with customers that we'd know for years. Webindie is currently in quite a different situation. The [newsletter](https://buttondown.email/webindie-announcements) has some subscribers that I've sent emails to. So far not much interaction though. Let's hope I can improve that in the second month. It's very important to know what parts are still missing for possible customers or which obstacles they experience. The initial version supports Ruby projects out of the box, because that is what I use myself. I'm hoping to get an idea what kind of integrations possible customers would need. Will it be .NET, Django, [Rocket](https://rocket.rs), or ...?
+Talking to customers was a very important part of running an agency. The big difference was that we could easily meet face to face and mostly worked with customers that we'd know for years. Webindie is currently in quite a different situation. The newsletter has some subscribers that I've sent emails to. So far not much interaction though. Let's hope I can improve that in the second month. It's very important to know what parts are still missing for possible customers or which obstacles they experience. The initial version supports Ruby projects out of the box, because that is what I use myself. I'm hoping to get an idea what kind of integrations possible customers would need. Will it be .NET, Django, [Rocket](https://rocket.rs), or ...?
 
 ## First Month Summary
 

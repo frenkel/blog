@@ -19,12 +19,6 @@ A fork of the original Fast JSON API project that was started by Netflix. When t
 A newcomer to the scene! It's always great when people step up to fill a gap. This is my personal favorite because it gives you the nice DSL with serializers (Blueprints) that I've known from ActiveModelSerializers and Fast JSON API, while allowing you to render any JSON structure without giving up speed. If you expect your API to see lots of traffic you should definitely consider using this gem. Last release at the time of this writing was in November 2020. Find out more about it on [their Github](https://github.com/procore/blueprinter) page.
 
 ## After you deploy the API
-I've experienced quite some weird issues after deploying Rails JSON API's. Sometimes it can be a blackbox to debug, especially for web applications with lots of users. Following the access logs is not going to give you the insight you need when debugging high load, timeouts or other problems. I'm building a service to help you get insight into the usage and abuse of your web API, a sort of [Analytics for API's](https://callcounter.eu/). My newly launched company [Webindie](https://webindie.nl/) will be the sole owner and the product is now open for sign ups. Leave your email below if you're interested in updates about it.
+I've experienced quite some weird issues after deploying Rails JSON API's. Sometimes it can be a blackbox to debug, especially for web applications with lots of users. Following the access logs is not going to give you the insight you need when debugging high load, timeouts or other problems. I'm building a service to help you get insight into the usage and abuse of your web API, a sort of [Analytics for API's](https://callcounter.eu/). My newly launched company [Webindie](https://webindie.nl/) will be the sole owner and the product is now open for sign ups.
 
-<iframe
-scrolling="no"
-style="width:100%!important;height:220px;border:1px #ccc solid !important"
-src="https://buttondown.email/webindie-announcements?as_embed=true"
-></iframe>
-
-Don't hesitate to [contact me on Twitter](https://twitter.com/frankgroeneveld) if you have any questions or comments about this post or my new company.
+Don't hesitate to [contact me on Twitter](https://twitter.com/frankgroeneveld) if you have any questions or comments.
