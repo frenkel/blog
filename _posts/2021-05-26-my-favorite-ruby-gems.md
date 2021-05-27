@@ -66,6 +66,14 @@ I'm always hesistant when it comes to using gems. Every gem you add to a project
 
   Compare hashes and show the differences in a simple language. Great when testing JSON API responses.
 
+- [byebug](https://github.com/deivid-rodriguez/byebug)
+
+  Stop execution and start debugging on an interactive console.
+
+- [capybara](https://github.com/teamcapybara/capybara)
+
+  Test with real browsers.
+
 # Various
 
 - [dentaku](https://github.com/rubysolo/dentaku)
@@ -79,5 +87,9 @@ I'm always hesistant when it comes to using gems. Every gem you add to a project
 - [roo](https://github.com/roo-rb/roo)
 
   Read Excelsheets, OpenDocument spreadsheets and csv files.
+
+- [rubocop](https://github.com/rubocop/rubocop)
+
+  Linting and other techniques to improve your code quality.
 
 Note that I've never built a project with all these gems in it. I always try to keep the dependencies to a minimum to avoid headaches when upgrading gems or the server operating system.
