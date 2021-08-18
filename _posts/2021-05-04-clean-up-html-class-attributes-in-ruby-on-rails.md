@@ -7,7 +7,7 @@ comments: true
 categories: Programming
 ---
 
-I keep on discovering handy view helpers in Ruby on Rails while developing [Callcounter](https://callcounter.eu). A few weeks back I remembed [cycle](https://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html#method-i-cycle) and last week I discovered a new helper that was introduced in Ruby on Rails 6.1: [`class_names`](https://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#method-i-class_names).
+I keep on discovering handy view helpers in Ruby on Rails while developing my SaaS. A few weeks back I remembed [cycle](https://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html#method-i-cycle) and last week I discovered a new helper that was introduced in Ruby on Rails 6.1: [`class_names`](https://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#method-i-class_names).
 
 ## Beautify your views
 

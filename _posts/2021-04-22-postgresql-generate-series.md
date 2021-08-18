@@ -7,7 +7,7 @@ comments: true
 categories: Programming
 ---
 
-Ever needed to aggregate data per time period where you didn't have data points in every part of the period? I did when building [Callcounter](https://callcounter.eu). I wanted to generate a chart of requests per hour, where I didn't have requests in every hour. Using a naive PostgreSQL query I ended up with results such as this:
+Ever needed to aggregate data per time period where you didn't have data points in every part of the period? I wanted to generate a chart of requests per hour, where I didn't have requests in every hour. Using a naive PostgreSQL query I ended up with results such as this:
 
 <pre>
 => SELECT date_trunc('hour', created_at),
