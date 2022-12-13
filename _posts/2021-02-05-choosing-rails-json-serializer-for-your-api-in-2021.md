@@ -20,5 +20,3 @@ A newcomer to the scene! It's always great when people step up to fill a gap. Th
 
 ## Summary
 Based on my research and experience so far, I prefer Blueprinter for JSON serializing most of the time.
-
-Don't hesitate to [contact me on Twitter](https://twitter.com/frankgroeneveld) if you have any questions or comments.

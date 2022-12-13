@@ -56,4 +56,4 @@ That's it, you should now have a nice image upload tab when you click the image 
 As a bonus TinyMCE now also supports dragging an image into the editor which will use this endpoint to
 store it on the server!
 
-[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Subscribe to the RSS feed](/feed/) to be notified of my next blog post!

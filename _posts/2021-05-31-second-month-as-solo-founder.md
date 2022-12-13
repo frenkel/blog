@@ -45,4 +45,4 @@ I'm starting to doubt whether visitors understand why Callcounter could help the
 - Improved Bing Ads.
 - Created and tested Google Ads.
 
-[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Subscribe to the RSS feed](/feed/) to be notified of my next blog post!

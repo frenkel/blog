@@ -30,4 +30,4 @@ As described above I received quite some signals that Everlint might be a viable
 
 Quite a rocky period, but in the end Webindie is profitable and I'm very motivated to work on my new project. It is much more rewarding to work on a project that has some actual users, I'm looking forward to what the coming month will bring.
 
-[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Subscribe to the RSS feed](/feed/) to be notified of my next blog post!

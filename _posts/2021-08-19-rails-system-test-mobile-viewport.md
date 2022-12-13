@@ -49,4 +49,4 @@ end
 
 ```
 
-[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Subscribe to the RSS feed](/feed/) to be notified of my next blog post!

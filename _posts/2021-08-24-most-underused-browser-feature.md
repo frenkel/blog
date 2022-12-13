@@ -13,4 +13,4 @@ Now open the [first example](https://techdows.com/2015/02/enable-test-reader-mod
 
 I believe not a lot of users know about this button, especially because Chrome doesn't want to show it by default. As you can imagine it's quite a life saver for informative sites and articles that you just want to read and don't care about further interacting with.
 
-[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Subscribe to the RSS feed](/feed/) to be notified of my next blog post!

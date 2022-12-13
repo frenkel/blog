@@ -41,5 +41,3 @@ Now the tricky part, how do we generate a new number and make sure it's unique w
 </pre>
 
 That's it. Let's hope this function will generate a lot of unique invoice numbers for us!
-
-Don't hesitate to [contact me on Twitter](https://twitter.com/frankgroeneveld) if you have any questions or comments.

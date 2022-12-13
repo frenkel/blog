@@ -53,4 +53,4 @@ A short list with the most important tasks I can think of for now:
 - Develop a second integration, besides Ruby on Rails, for an important framework.
 - Write a blog post about my second month.
 
-[Follow me on twitter](https://twitter.com/frankgroeneveld) or [subscribe to the RSS feed](/feed/) to be notified of my next blog post!
+[Subscribe to the RSS feed](/feed/) to be notified of my next blog post!
