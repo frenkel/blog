@@ -7,7 +7,7 @@ comments: true
 categories: Programming
 ---
 
-While building my [subscription tracking service](https://everlint.com/) I broke the mobile navigation menu and deployed it to production. It was only after a day or so that a user emailed me to report this bug. I directly understood why my ads did not convert! This should never happen again, let's create a system test with mobile viewport sizes that verifies the menu works correctly.
+While building my subscription tracking service I broke the mobile navigation menu and deployed it to production. It was only after a day or so that a user emailed me to report this bug. I directly understood why my ads did not convert! This should never happen again, let's create a system test with mobile viewport sizes that verifies the menu works correctly.
 
 ## Default screen size desktop
 

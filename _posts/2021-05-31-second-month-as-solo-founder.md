@@ -11,7 +11,7 @@ I'm writing this on the last day of my second month as a solo founder. [Read abo
 
 ## Attracting More Visitors
 
-Besides using Bing Ads to attract visitors to the website, I also started to do this with Google Ads. Before starting Webindie I had a strong objection against this, but this was just the simplest way to get visitors to the site.
+Besides using Bing Ads to attract visitors to the website, I also started to do this with Google Ads. Before starting my new business I had a strong objection against this, but this was just the simplest way to get visitors to the site.
 
 This was also the month where I started a blog on the Callcounter domain. I wrote something about [Ruby XML serializers](https://callcounter.eu/blog/choosing-rails-xml-serializer-for-your-api-in-2021) there for example, which attracted quite some visitors from Reddit. The total unique visitor count for that post count was somewhere around 200.
 
