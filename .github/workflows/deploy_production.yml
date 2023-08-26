@@ -29,7 +29,7 @@ jobs:
       - run: bundle check || bundle install --local --jobs `nproc`
       - run: |
           bundle exec jekyll build
-          find _site -iname \*.jpg -exec convert '{}' -resize '>1200x1200' -quality 70 '{}' \;
+          find _site \( -iname \*.jpg -o -iname \*.jpeg \) -exec convert '{}' -resize '>1200x1200' -quality 70 '{}' \;
       - run: |
           mkdir ~/.ssh
           umask 077
