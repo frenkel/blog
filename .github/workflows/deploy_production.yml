@@ -1,0 +1,38 @@
+name: Deploy to production
+on:
+  push:
+    branches:
+      - master
+
+concurrency: production
+
+jobs:
+  deploy:
+    concurrency: production_environment
+    environment: production
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: sudo apt update --option="APT::Acquire::Retries=3"
+      - run: >
+          sudo apt install --option="APT::Acquire::Retries=3" -y
+          bundler ruby-dev lftp imagemagick
+
+      - uses: actions/cache@v3
+        with:
+          key: bundler-node-cache-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/Gemfile.lock') }}
+          path: |
+            vendor/bundle
+            node_modules
+      - run: bundle config set --local path vendor/bundle
+
+      - run: bundle check || bundle install --local --jobs `nproc`
+      - run: |
+          bundle exec jekyll build
+          find _site -iname \*.jpg -exec convert '{}' -resize '>1200x1200' -quality 70 '{}' \;
+      - run: |
+          mkdir ~/.ssh
+          umask 077
+          echo '${{ secrets.KNOWN_HOSTS }}' > ~/.ssh/known_hosts
+          echo '${{ secrets.SSH_KEY }}' > ~/.ssh/id_rsa
+      - run: lftp -f deploy.lftp
