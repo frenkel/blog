@@ -2,7 +2,7 @@
 layout: post
 title: "Traxxas Bandit endpoint adjustment"
 description: "How to physically adjust the endpoints of the Traxxas without a TQi transmitter."
-date: 2023-08-26 19:31 CEST
+date: 2023-08-26 19:31 +0100
 ---
 
 If your Bandit's steering is not correctly aligned, your steering will be off and you might even grind the wheel against other parts. The Traxxas Bandit comes with a simple TQ transmitter, which does not support steering endpoint adjustment.
