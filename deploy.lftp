@@ -1,4 +1,4 @@
 set sftp:auto-confirm yes
 set sftp:connect-program "ssh -v -a -x -i ../.ssh/fcc9631c-86a1-437d-95d4-9b5a140acaa0"
-connect sftp://blog:dummy@www.webindie.nl:22
+connect sftp://blog:dummy@frankgroeneveld.nl:22
 mirror --reverse --delete _site/ public_html/
