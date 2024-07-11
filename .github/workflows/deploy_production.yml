@@ -10,7 +10,7 @@ jobs:
   deploy:
     concurrency: production_environment
     environment: production
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
       - run: sudo apt update --option="APT::Acquire::Retries=3"
